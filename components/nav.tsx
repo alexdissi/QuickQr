@@ -6,7 +6,11 @@ export function Nav() {
   return (
     <nav className="flex items-center justify-between px-4 py-2 flex-row">
       <div>
-        <h1 className="text-2xl font-bold">Quick QR</h1>
+        <h1 className="text-2xl font-bold">
+          <Link href={"/"} className="underline">
+            Quick QR
+          </Link>{" "}
+        </h1>
       </div>
       <div className="flex items-center flex-row gap-7">
         <ModeToggle />
