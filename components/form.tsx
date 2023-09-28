@@ -72,7 +72,7 @@ export default function Form() {
         <div id="qr-image" className="flex items-center justify-center mt-5">
           <Image
             src={qrCodeUrl}
-            alt="qr-code"
+            alt="qr-code generer grace a quickqr"
             width={240}
             height={240}
             ref={qrCodeImageRef}
